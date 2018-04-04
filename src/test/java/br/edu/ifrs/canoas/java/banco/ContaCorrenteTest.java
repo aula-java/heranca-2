@@ -1,4 +1,4 @@
-package br.edu.ifrs.canoas.java.banco;
+package banco;
 
 import static org.junit.Assert.*;
 import static org.junit.Assert.fail;
@@ -8,7 +8,7 @@ import org.junit.Test;
 
 public class ContaCorrenteTest {
 	/*
-	ContaCorrente cc;
+	Conta cc;
 	
 	@Before
 	public void setup(){
@@ -18,14 +18,15 @@ public class ContaCorrenteTest {
 	@Test
 	public void testDeposita() {
 		cc.deposita(1000);
-		//Faca a assercao em cp.getSaldo para verificar se o saldo foi atualizado corretamente pelo metodo
+		assertEquals("Apos o deposito de 1000, o saldo deve ser 1000 menos 10 centavos", 999.9, cc.getSaldo(),1);
 	}
 
 	@Test
 	public void testAtualiza() {
 		cc.deposita(1000);
 		cc.atualiza(0.01);
-		//Faca a assercao em cp.getSaldo para verificar se o saldo foi atualizado corretamente pelo metodo
+		assertEquals("Novo saldo eh Saldo original mais dobro da taxa", 1019.898, cc.getSaldo(),3);
 	}
-    */
+	*/
+
 }
