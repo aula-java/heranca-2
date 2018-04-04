@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class ContaPoupancaTest {
 	/*
-	ContaPoupanca cp;
+	Conta cp;
 	
 	@Before
 	public void setup(){
@@ -18,7 +18,7 @@ public class ContaPoupancaTest {
 	public void testAtualiza() {
 		cp.deposita(1000);
 		cp.atualiza(0.01);
-		//Faca a assercao em cp.getSaldo para verificar se o saldo foi atualizado corretamente pelo metodo;
+		assertEquals("Novo saldo eh Saldo original (999.9) mais triplo da taxa (3x.01)", 1030, cp.getSaldo(),0);
 	}
 	*/
 }
