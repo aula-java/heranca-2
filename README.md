@@ -1,6 +1,6 @@
 ## [Linguagem de Programação Orientada a Objetos 1](https://rodrigonoll.github.io/aula/lpoo-1.html)
 
-### [Exercício: Conceitos Avançados: Herança e Reescrita](https://rodrigonoll.github.io/aula/avancado/#/3)
+### [Exercício: Conceitos Avançados: Herança e Reescrita](https://rodrigonoll.github.io/aula/java-avancado/#/3)
 
 1. Clone este projeto
 2. Crie duas subclasses de Conta chamadas **ContaCorrente** e **ContaPoupanca**.
